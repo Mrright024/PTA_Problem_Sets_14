@@ -26,7 +26,23 @@ export default defineUserConfig({
           '/function/6-12.md',
           '/function/6-13.md',
         ]
-      }
+      },
+      {
+        text: '编程题',
+        link: '/program/7-1.md',
+        children: [
+          '/program/7-1.md',
+          '/program/7-2.md',
+          '/program/7-3.md',
+          '/program/7-4.md',
+          '/program/7-5.md',
+          '/program/7-6.md',
+          '/program/7-7.md',
+          '/program/7-8.md',
+          '/program/7-9.md',
+          '/program/7-10.md',
+        ]
+      },
     ],
     sidebarDepth: 2,
     lastUpdated: true,
