@@ -11,6 +11,8 @@
   "license": "MIT",
   "devDependencies": {
     "@vuepress/bundler-vite": "^2.0.0-rc.9",
+    "@vuepress/plugin-copy-code": "^2.0.0-rc.28",
+    "@vuepress/plugin-docsearch": "^2.0.0-rc.28",
     "@vuepress/plugin-shiki": "^2.0.0-rc.0",
     "@vuepress/theme-default": "^2.0.0-rc.28",
     "mathjax-full": "^3.2.2",

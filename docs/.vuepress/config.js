@@ -3,10 +3,14 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 import { shikiPlugin } from '@vuepress/plugin-shiki'
+import { copyCodePlugin } from '@vuepress/plugin-copy-code'
 
 export default defineUserConfig({
   bundler: viteBundler(),
   theme: defaultTheme({
+    logo: '/images/pintia_logo.png',
+    logoAlt: 'PTA Icon',
+    repo: 'Mrright024/PTA_Problem_Sets_14',
     sidebar: [
       {
         text: '函数题',
@@ -63,6 +67,9 @@ export default defineUserConfig({
       mathjax:true,
     }),
     shikiPlugin(),
+    copyCodePlugin({
+      showInMobile: true,
+    }),
   ],
 
   bundlerConfig: {
