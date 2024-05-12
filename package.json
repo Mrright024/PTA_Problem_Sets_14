@@ -1,0 +1,20 @@
+{
+  "name": "pta_problem_sets_14",
+  "version": "1.0.0",
+  "description": "A PTA Problem Sets 14 Record",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.9",
+    "@vuepress/plugin-shiki": "^2.0.0-rc.28",
+    "@vuepress/theme-default": "^2.0.0-rc.28",
+    "mathjax-full": "^3.2.2",
+    "vuepress": "^2.0.0-rc.9",
+    "vuepress-plugin-md-enhance": "^2.0.0-rc.41"
+  }
+}
