@@ -7,6 +7,7 @@ export default defineUserConfig({
   bundler: viteBundler(),
   theme: defaultTheme(),
 
+  base: "/pta_problem_sets_14",
   lang: 'zh-CN',
   title: 'PTA基础编程题目集记录',
   description: '记录PTA基础编程题目集题目和自己的解题记录',
