@@ -5,6 +5,7 @@ import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { copyCodePlugin } from '@vuepress/plugin-copy-code'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
+import { seoPlugin } from '@vuepress/plugin-seo'
 
 export default defineUserConfig({
   bundler: viteBundler(),
@@ -101,7 +102,8 @@ export default defineUserConfig({
     }),
     googleAnalyticsPlugin({
       id: 'G-Q7K6GXDZRC',
-    })
+    }),
+    seoPlugin(),
   ],
 
   bundlerConfig: {
