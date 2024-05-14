@@ -4,6 +4,7 @@ import { defineUserConfig } from 'vuepress'
 import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { copyCodePlugin } from '@vuepress/plugin-copy-code'
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 
 export default defineUserConfig({
   bundler: viteBundler(),
@@ -98,6 +99,9 @@ export default defineUserConfig({
     copyCodePlugin({
       showInMobile: true,
     }),
+    googleAnalyticsPlugin({
+      id: 'G-Q7K6GXDZRC',
+    })
   ],
 
   bundlerConfig: {
