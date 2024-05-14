@@ -103,7 +103,15 @@ export default defineUserConfig({
     googleAnalyticsPlugin({
       id: 'G-Q7K6GXDZRC',
     }),
-    seoPlugin(),
+    seoPlugin({
+      hostname: 'https://mrright024.github.io//PTA_Problem_Sets_14/',
+      author: {
+        name: 'William Kong',
+        url: 'https://williamkong.xyz',
+        email: 'admin@williamkong.xyz',
+      },
+
+    }),
   ],
 
   bundlerConfig: {
